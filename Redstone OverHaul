@@ -1,0 +1,10 @@
+-----Items-----
+Cloth = 3 string 
+Rubber = 2 cloth , 1 clay 
+Copper wire = 2 copper , 1 rubber 
+Gold Frame = 8 gold 
+metal bar = 9 metal scrap 
+metal plate = 3 metal bars 
+Microchip base = 1 metal plate , 4 green dye 
+microchip =  1 microchip base, 1 gold frame 
+
