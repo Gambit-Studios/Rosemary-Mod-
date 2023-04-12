@@ -1,0 +1,56 @@
+
+
+
+-----Factions-------
+
+Factions are groups of players
+Players in the same faction cannot hurt eachother 
+When creating a faction you will be made the faction leader 
+Faction leaders will always be able to be seen on the minimap 
+
+------Special Faction Items------
+
+Faction Chest - Any item stored in a faction chest can only be seen by other faction members 
+Faction Flag - Can be placed , if placed on unclaimed land it will claim that land. Will create a beacon and acts as a waypoint.
+Faction Compass - Allows the holder to teleport to any waypoint owned by the faction 
+Faction Map - Allows you to have a minimap open by pressing P , will show any waypoint and faction leader
+Faction Flare - Shoots a Flare up into the air, only faction members can see this 
+
+------Faction Creating-----
+
+/CreateFaction : this creates a new faction 
+/NameFaction {insert name} : this names your faction
+/Claim : claims land for your faction 
+/Unclaim : unclaims previous claims
+/Disband : disbands your faction 
+
+------Faction Moderation------
+
+/join {faction name} : Joins a faction 
+/factionRules : shows the current settings on your faction 
+/SetFactionPrivate true : sets your faction to private 
+/FactionKick : kicks a player from your faction 
+/Promote {rank} {player name here} : promotes a player to a rank 
+/Demote {rank} { player name hewre } : demotes a player 
+/Report { player name } { reason } : reports a player 
+/FactionAdmin {player name} (true / false) : makes a player a faction admin 
+/reportLog : shows report logs 
+
+-----Faction Actions------
+
+/DeclareWar { faction name } : declares war 
+/DeclarePeace { faction name } : declares peace 
+/AllIance { faction name } { alliance name } : sends an alliance request 
+/acceptAlliance : accepts an alliance 
+/breakAlliance : breaks an alliance 
+
+
+
+------Faction Communication----
+
+/privateGroupCreate {group name} { player name } (note there can be up to 20 players in one private group) : creates a private message group 
+/PrivateGroupMSG { group name } { message } : sends a message 
+/Important { player name } { message } : sends a message in bold red text 
+/EnableVoiceChat : enables Voice Chat 
+/Mute : mutes your mic in voice chat 
+/Volume { 0 - 100 } : sets your volume % 
