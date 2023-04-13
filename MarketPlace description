@@ -1,0 +1,13 @@
+-------Marketplace--------
+Allows you to sell and by items
+
+-------Commands--------
+/Marketplace open : opens the marketplace UI 
+/list { item } { item cost } : lists an item on the marketplace 
+/remove { listed Item } : removes a listed item 
+/sell { item } : sells an item for RoseBucks 
+/buy { player name } { listed item } : buys a listed item from a player 
+/offer { playername } { item } { cost } : offers a item to a player
+/Accept : accepts an offer 
+/Counter { player name } { offered item } { new cost } : sends a counteroffer 
+/Decline : declines an offer
